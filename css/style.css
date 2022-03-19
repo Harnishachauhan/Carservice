@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+  } 
+  
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fcfdfd;
+}
+
+.container
+{
+    max-width: 1300px;
+    margin: 0 auto;
+   
+}
+
+.main-container{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: black;
+}
+    
+.header-container{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.header-logo{
+  display: flex;
+  align-items: center;
+  color: #fcfdfd;
+  margin-right: 430px;
+}
+.header-logo h1{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.header-services{
+    display: flex;
+    color: #fcfdfd;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+   
+}
+.list{
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 600;   
+}
+.list li{
+    padding: 0 20px;
+}
+.header-services button{
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.car-service{
+    
+    z-index: -47;
+    position: relative;
+}
+.carservice{
+    display: flex;
+    width: 70%;
+    position: absolute;
+    top: 76px;
+    left: 255px;
+  
+}
+   
+.car-discrption{
+  
+    display: flex;
+    flex-direction: column;
+}
+.car-discrption h3{
+    font-size: 32px;
+    font-weight: normal;
+    margin: 5px;
+    padding: 0 50px;
+    color: #fcfdfd;
+}
+.car-discrption h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 5px;
+    
+    padding: 0 50px;
+    color: #fcfdfd;
+}
+.car-discrption button{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: black;
+    width: 135px;
+    padding: 8px 25px;
+    color: #fcfdfd;
+}
+
+.car{
+    width: 80%;
+}
+.sec-plumber{
+    position: relative;
+    top: 113px;
+    right: 115px;
+}
+.plumber{
+    width: 80%;
+}
+.mech-garage{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+ 
+}
+.mech-garage-discription{
+    
+    padding: 40px;
+}
+.mech-garage-discription h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+   
+}
+.mech-garage-discription p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+  
+}
+.mech-garage-discription button{
+    color: #fcfdfd;
+background-color: black;
+padding: 5px;
+}
+/* .mech-garage-img img{
+    width: 100%;
+    
+} */
+
+.works{
+    
+    margin: 0 auto;
+    text-align: center;
+    z-index: -15;
+    position: relative;
+   
+}
+.works-discription {
+    margin: 0 auto;
+    padding: 10px 270px;
+    text-align: center;
+}
+.works-discription h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+.works-discription p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+   
+}
+.workimg{
+    WIDTH: 850PX;
+    MARGIN: 0 AUTO;
+ 
+}
+
+.workbox{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    column-gap: 10px;
+}
+.workbox-service{ 
+    width: 200px;
+    
+}
+
+.workbox-service .button1 {
+    position: relative;
+    top: -25px;
+    width: 165px;
+    padding: 40px;
+    background-color: #b34e43;
+    color: #fcfdfd;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    border: none;
+    box-shadow: 3px 3px 3px 3px #f1e8e8;
+}
+.workbox-service .button2 {
+    position: relative;
+    top: -28px;
+    width: 165px;
+    padding: 40px;
+    background-color: #fcfdfd;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    border: none;
+    box-shadow: 3px 3px 3px 3px #f1e8e8;
+}
+.car-service > img {
+    width: 100%;    
+}
+.works > img {
+    width: 100%;
+}
